@@ -1,6 +1,6 @@
 # Konsolen Zeug
 
-## Beispiel um auf installierte mysql zuzugreifen
+## Beispiel um auf installierte MySQL zuzugreifen
 
 
 
@@ -10,7 +10,7 @@ auf der Konsole ausführen.
 
 ## Anpassungen in der ssh config
 
-Wir forwaren hier den Port 3306 um in unserem Fall um auf eine MYSQL Datenbank zugreifen zu können.
+Wir forwaren hier den Port 3306 um in unserem Fall um auf eine MySQL Datenbank zugreifen zu können.
 
     Host projektName
     User userName
@@ -23,7 +23,7 @@ Nun können wir auf der Konsole per ssh unser Projekt aufrufen.
 
     ssh projektName
 
-Danach Passwort eingeben und wir sind auf der Machine mit gelinkter MYSQL Datenbank.
+Danach Passwort eingeben und wir sind auf der Machine mit gelinkter MySQL Datenbank.
 
 ## Zugriff auf MYSQL Datenbank
 
