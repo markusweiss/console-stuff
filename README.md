@@ -25,7 +25,7 @@ Nun können wir auf der Konsole per ssh unser Projekt aufrufen.
 
 Danach Passwort eingeben und wir sind auf der Machine mit gelinkter MySQL Datenbank.
 
-## Zugriff auf MYSQL Datenbank
+## Zugriff auf MySQL Datenbank
 
 Mit einem Client z.B. SQuirreL oder SequelPro einloggen
 
