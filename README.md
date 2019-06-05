@@ -1,5 +1,9 @@
 # Konsolen Zeug
 
+## Alle öffentlichen ssh Keys auflisten
+
+     ls -al ~/.ssh/*.pub
+
 ## Beispiel um auf installierte MySQL zuzugreifen
 
 
@@ -11,14 +15,13 @@ auf der Konsole ausführen.
 ## Anpassungen in der ssh config
 
 Wir forwaren hier den Port 3306 um in unserem Fall um auf eine MySQL Datenbank zugreifen zu können.
-
-    Host projektName
-    User userName
-    HostName meineUrl.com oder IP-Adresse
-    LocalForward 3306 meineUrl.com:3306
-    #IdentityFile ~/.ssh/userName.pub
-    #PreferredAuthentications publickey
-
+<pre>
+Host <b>projektName</b>
+User <b>userName</b>
+HostName <b>meineUrl.com oder IP-Adresse</b>
+LocalForward <b>3306 meineUrl.com:3306</b>
+IdentityFile /Users/<b>userName</b>/.ssh/<b>keyName</b>
+</pre>
 Nun können wir auf der Konsole per ssh unser Projekt aufrufen.
 
     ssh projektName
