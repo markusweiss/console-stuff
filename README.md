@@ -2,7 +2,7 @@
 
 ## Alle öffentlichen ssh Keys auflisten
 
-     ls -al ~/.ssh/*.pub
+     ls -la ~/.ssh/*.pub
 
 ## Beispiel um auf installierte MySQL zuzugreifen
 
