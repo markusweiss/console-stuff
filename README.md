@@ -1,5 +1,42 @@
 # Konsolen Zeug
 
+## GIT
+
+Nach Änderungen im aktuellen branch schauen
+
+     git status
+
+Alle Branches holen
+
+     git fetch -a
+
+Alle Branches anzeigen
+
+     git branch -a
+
+Gewünschten Branch z.b. Feature auschecken
+
+     git checkout feature/meinfeaturefolder
+
+oder zum master
+
+     git checkout master
+
+
+## Git mit verschiedenden ssh Keys nutzen
+
+Hier wurde der ssh config der Key **projektName** hinterlegt siehe Beispiel ssh weiter unten.
+
+clone URL in Git:
+
+git@gitlab.meinserver.com:**gitordner**/workshop/meinverzeichnis.git
+
+     git clone projektName:gitordner/workshop/meinverzeichnis.git
+
+Die Gitlab URL wird hier dann durch den angelegte ssh key in der config ersetzt. (**projektName** mit hinterlegtem ssh Key)
+
+## SSH
+
 ## Alle öffentlichen ssh Keys auflisten
 
      ls -la ~/.ssh/*.pub
@@ -26,7 +63,7 @@ Nun können wir auf der Konsole per ssh unser Projekt aufrufen.
 
     ssh projektName
 
-Danach Passwort eingeben und wir sind auf der Machine mit gelinkter MySQL Datenbank.
+Danach Passwort eingeben und wir sind auf der Maschine mit gelinkter MySQL Datenbank.
 
 ## Zugriff auf MySQL Datenbank
 
