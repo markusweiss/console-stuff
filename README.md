@@ -14,13 +14,17 @@ Alle Branches anzeigen
 
      git branch -a
 
-Gewünschten Branch z.b. Feature auschecken
+Gewünschten Branch anlegen z.B. feature/meinfeatureordner
 
-     git checkout feature/meinfeaturefolder
+     git checkout -b feature/meinfeatureordner
 
-oder zum master
+Zum master wechseln
 
      git checkout master
+
+oder zurück
+
+     git checkout feature/meinfeatureordner
 
 
 ## Git mit verschiedenden ssh Keys nutzen
