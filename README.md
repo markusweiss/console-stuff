@@ -26,6 +26,24 @@ oder zurück
 
      git checkout feature/meinfeatureordner
 
+## Git master in feature mergen
+
+den master Branch aktualsieren
+
+     git pull
+
+wechsel auf den feature Branch
+
+     git checkout feature/meinfeatureordner
+
+sicherheitshalber aktualsieren und danach master in feature mergen und pushen
+
+     git pull
+
+     git merge master
+
+     git push
+
 
 ## Git mit verschiedenden ssh Keys nutzen
 
