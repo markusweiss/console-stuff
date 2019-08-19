@@ -28,7 +28,7 @@ oder zurück
 
 ## Git master in feature mergen
 
-den master Branch aktualsieren
+den master Branch aktualisieren
 
      git pull
 
@@ -36,7 +36,7 @@ wechsel auf den feature Branch
 
      git checkout feature/meinfeatureordner
 
-sicherheitshalber aktualsieren und danach master in feature mergen und pushen
+sicherheitshalber aktualisieren und danach master in feature mergen und pushen
 
      git pull
 
