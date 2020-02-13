@@ -1,5 +1,15 @@
 # Konsolen Zeug
 
+## wget
+
+Komplette Seite mit wget ziehen und im Ordner abspeichern.
+
+wget für OSX kann mit [brew](https://brew.sh/) installiert werden.
+
+Die umfangreiche **wget** [Dokumentation](https://www.gnu.org/software/wget/manual/wget.html) :scream: 
+
+     wget --page-requisites --adjust-extension --convert-links <https://www.url-to-grab.de>
+
 ## GIT
 
 Nach Änderungen im aktuellen branch schauen
@@ -39,11 +49,14 @@ wechsel auf den feature Branch
 sicherheitshalber aktualisieren und danach master in feature mergen und pushen
 
      git pull
-
+    
      git merge master
-
+    
      git push
 
+## Commit ohne vorherigen Push rückgängig machen
+
+     git reset HEAD^ --hard
 
 ## Git mit verschiedenden ssh Keys nutzen
 
