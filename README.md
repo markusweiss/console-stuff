@@ -1,5 +1,13 @@
 # Konsolen Zeug
 
+## NodeJS
+
+Einfachen lokalen Http Server starten: im entsprechenden Order folgendes aufrufen:
+
+     npx http-server .
+
+Link zum Server: [http-server: a command-line http server](https://www.npmjs.com/package/http-server)
+
 ## wget
 
 Komplette Seite mit wget ziehen und im Ordner abspeichern.
