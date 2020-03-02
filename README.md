@@ -20,6 +20,8 @@ Die umfangreiche **wget** [Dokumentation](https://www.gnu.org/software/wget/manu
 
 ## GIT
 
+### Branches
+
 Nach Änderungen im aktuellen branch schauen
 
      git status
@@ -43,6 +45,21 @@ Zum master wechseln
 oder zurück
 
      git checkout feature/meinfeatureordner
+
+### Branch umbenennen
+
+lokaler Branch der noch nicht gepusht wurde
+
+     git checkout <alter-name>
+
+     git branch -m <neuer-name>
+
+wenn der Branch schon gepush wurde dann zusätzlich
+
+     git push origin -u <neuer-name>
+
+     git push origin --delete <alter-name>
+
 
 ## Git master in feature mergen
 
