@@ -95,6 +95,25 @@ git@gitlab.meinserver.com:**gitordner**/workshop/meinverzeichnis.git
 
 Die Gitlab URL wird hier dann durch den angelegte ssh key in der config ersetzt. (**projektName** mit hinterlegtem ssh Key)
 
+## vorhandenen Ordner zu git hinzufügen
+
+in den Ordner gehen und Dateien huínzufügen
+
+     cd mein-projekt-ordner
+     git init
+     git add .
+
+Kommentar nicht vergessen
+
+     git commit
+
+dann bei github ein neues Repository anlegen, da stehen dann schon die richtigen Befehle, wie z.B.:
+
+     git remote add origin git@github.com:meinusername/mein-projekt-ordner.git
+
+     git push -u origin master
+
+
 ## SSH
 
 ## Alle öffentlichen ssh Keys auflisten
