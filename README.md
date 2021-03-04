@@ -38,6 +38,14 @@ Alle Branches anzeigen
 
      git branch -a
 
+Branch (feature) löschen
+
+     git branch -d feature/meinfeatureordner
+
+Branches bereinigen (prunen), z.B. unereichbare Branches oder gelöschte Ordner werden nicht mehr angezeigt.
+
+     git fetch -p
+
 Gewünschten Branch anlegen z.B. feature/meinfeatureordner
 
      git checkout -b feature/meinfeatureordner
@@ -143,6 +151,22 @@ dann bei github ein neues Repository anlegen, da stehen dann schon die richtigen
      git remote add origin git@github.com:meinusername/mein-projekt-ordner.git
     
      git push -u origin master
+
+
+
+## Alias für übersichtliche View anlegen
+
+Ein Alias kann genutzt werden um Kommados zusammenzufassen z.B mit einem Wort das Ihr Euch besser merken könnt.
+
+     git config --global alias.graph "log --graph --branches --remotes --decorate --oneline"
+
+Nach *alias.* könnt Ihr Euren sprechenden Namen nehmen
+
+     alias.graph oder alias.eigenername 
+
+Schöne Übersicht aufrufen mit:
+
+     git graph oder git eigenername
 
 
 
