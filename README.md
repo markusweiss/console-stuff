@@ -213,5 +213,3 @@ Mit einem Client z.B. SQuirreL oder SequelPro einloggen
 _Dran denken lokalhost wäre in dem Fall dann **127.0.0.1**!!!_
 
 
-
-#TEST SSH AGAIN
