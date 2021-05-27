@@ -136,7 +136,7 @@ Die Gitlab URL wird hier dann durch den angelegte ssh key in der config ersetzt.
 
 ## vorhandenen Ordner zu git hinzufügen
 
-in den Ordner gehen und Dateien huínzufügen
+in den Ordner gehen und Dateien hinzufügen
 
      cd mein-projekt-ordner
      git init
