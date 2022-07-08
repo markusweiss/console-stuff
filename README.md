@@ -172,6 +172,13 @@ Schöne Übersicht aufrufen mit:
 
 ## SSH
 
+## Key anlegen
+
+     ssh-keygen -t rsa -b 4096 -C "<my.name@domain.com>"
+
+Evtl. direkt im .ssh Ordner.
+
+
 ## Alle öffentlichen ssh Keys auflisten
 
      ls -la ~/.ssh/*.pub
