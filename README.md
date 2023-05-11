@@ -84,6 +84,16 @@ wenn der Branch schon gepush wurde dann zusätzlich
 
      git push origin --delete <alter-name>
 
+### Ordner umbenennen z.B. Groß/Kleinschreibung
+
+Wird mit normalen Einstellungen nicht erkannt wenn der Ordern von Name in name geändert wurde
+
+     git mv <Meinname> tmp
+     git mv tmp <meinname>
+
+     git commit -m "rename folder"
+     git push
+
 ## Git master in feature mergen
 
 den master Branch aktualisieren
@@ -101,6 +111,14 @@ sicherheitshalber aktualisieren und danach master in feature mergen und pushen
      git merge master
 
      git push
+
+## Tags setzen
+
+Wie wollen ein Tag setzen um zu deployen oder einen Stand markieren, damit wir zu dieser Version zurückkommen, ohne Branch
+
+     git tag -a <basic-version> -m "Alle Einstellungen für Basisprojekt"
+
+     git push origin <basic-version>
 
 ## Commit ohne vorherigen Push rückgängig machen
 
@@ -175,6 +193,10 @@ z.B.
      ssh-keygen -t rsa -b 4096 -C "<my.name@domain.com>"
 
 Evtl. direkt im .ssh Ordner.
+
+Alternativ, schneller, sicherer, aber derzeit nicht von allen Standards unterstützt.
+
+     ssh-keygen -t ed25519
 
 ## Alle öffentlichen ssh Keys auflisten
 
