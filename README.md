@@ -186,7 +186,7 @@ z.B.
 
      git remote add testserver https://gitlab.meintestserver/testprojekt/testapp.git
 
-### Verschiedene git Accounts nutzen
+## Verschiedene git Accounts nutzen
 
 Grundsätzlich mit einem Account kann dieser immer global angelegt werden.
 
@@ -198,13 +198,18 @@ ssh key und eine andere e-mail verwenden müssen wir dies im Projekt anlegen.
 
 D.h. nach dem der neue Key (siehe unten) mit der email Adresse angelegt wurde gehen wir in:
 
-<mein-neuer-projektordner>
+     cd <mein-neuer-projektordner>
 
      git config user.name "Name im Projekt"
+     git config user.email "projekt_email@example.com"
 
      ssh-add ~/.ssh/privater_Projekt_Schlüssel 
 
      git remote set-url origin git@github.com:Benutzername/Projektname.git
+
+Um zu sehen was im Projekt-Order konfiguriert ist kann amn dies sich z.B. so anschauen:
+
+     cat .git/config
 
 ## SSH
 
