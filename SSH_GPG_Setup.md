@@ -49,3 +49,9 @@ _Dran denken lokalhost wäre in dem Fall dann **127.0.0.1**!!!_
 ## GPG export/import
 
 todo
+
+## Key zu .zshrc config hinzufügen
+
+     ~ ▓▒░ vi .zshrc
+
+    export GPG_TTY=$(tty)
