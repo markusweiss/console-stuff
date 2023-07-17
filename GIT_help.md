@@ -94,11 +94,11 @@ sicherheitshalber aktualisieren und danach master in feature mergen und pushen
 
 ## Tags setzen
 
-Wie wollen ein Tag setzen um zu deployen oder einen Stand markieren, damit wir zu dieser Version zurückkommen, ohne Branch
+Wir wollen ein Tag setzen um zu deployen oder einen Stand markieren, damit wir zu dieser Version zurückkommen, ohne Branch
 
-     git tag -a <basic-version> -m "Alle Einstellungen für Basisprojekt"
+    git tag -a <basic-version> -m "Alle Einstellungen für Basisprojekt"
 
-     git push origin <basic-version>
+    git push origin --tags
 
 ## Commit ohne vorherigen Push rückgängig machen
 
