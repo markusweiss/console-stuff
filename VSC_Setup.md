@@ -1,9 +1,8 @@
- 
- # Prettier Setup 
+# Prettier Setup 
 
- ## links Erweiterungen anklicken
- 
- * Prettier-Erweiterung für Visual Studio Code installieren
+## links Erweiterungen anklicken
+
+* Prettier-Erweiterung für Visual Studio Code installieren
 
 * *.prettierrc* Datei im Root des Projektes anlegen
 
@@ -21,7 +20,6 @@
     "arrowParens": "always"
 }
 ```
-
 
 ## Ctrl + , drücken
 
