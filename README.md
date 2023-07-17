@@ -4,7 +4,7 @@
 
 [SSH Setup](SSH_GPG_Setup.md)
 
-[OhMyZsh Setup](ZSH_setup.md)
+[OhMyZsh Setup](ZSH_Setup.md)
 
 [Visual Studio Code Settings](VSC_Setup.md)
 
