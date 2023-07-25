@@ -4,6 +4,8 @@
 
 * Prettier-Erweiterung für Visual Studio Code installieren
 
+    [https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
 * *.prettierrc* Datei im Root des Projektes anlegen
 
 ### Beispiel:
@@ -21,7 +23,7 @@
 }
 ```
 
-## Ctrl + , drücken
+## Cmd + , drücken
 
-* Default Formatter suchen, Prettier (esbenp.prettier-vscode) auswählen
-* Editor: Format On Save suchen und anwählen
+* **Default Formatter** in Suche eingeben, Prettier (esbenp.prettier-vscode) auswählen
+* Editor: **Format On Save** in Suche eingeben und aktivieren
