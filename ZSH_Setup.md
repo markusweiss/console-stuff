@@ -18,12 +18,17 @@ Hacker Nerd font runterladen oder suchen
 
 https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack
 
-<!--    
-Hacker nerd font runterladen
-Theme homebred standard
-Terminal Schift ändern auf hacker nerd
-Fenster Spalten 160 Zeilen 48
--->
+# Anpassungen im Terminal
+
+Größen nach belieben anpassen, meine Einstellung siehe hier:
+
+ - Theme Homebrew Standard
+ - Terminal Schift ändern auf Hacker Nerd 12px
+ - Fenster Spalten 160 Zeilen 48
+ - Hintergrund auswählen
+
+<img width="1130" alt="zshtest" src="https://github.com/markusweiss/console-stuff/assets/2033988/e47cbee6-3421-48b1-b346-2fc47eb2e3e4">
+
 
 # Theme installieren
 
