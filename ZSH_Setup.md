@@ -14,7 +14,8 @@ brew Pfad hinzufügen
 
 # Schriften runterladen
 
-Hacker Nerd font runterladen oder suchen
+**Hacker Nerd** und/oder **Meslo Nerd Font** runterladen oder suchen
+(habe beide installiert)
 
 https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack
 
