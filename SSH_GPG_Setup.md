@@ -14,9 +14,15 @@ Alternativ, schneller, sicherer, aber derzeit nicht von allen Standards unterst√
 
      ls -la ~/.ssh/*.pub
 
-## ssh key import    
+## vorhandenen ssh key import    
 
-todo
+Ordner im User Verzeichnis anlegen
+
+     mkdir .ssh
+
+     ~/.ssh/
+
+Schl√ºssel reinkopieren
 
 ## Beispiel um auf installierte MySQL zuzugreifen
 
