@@ -14,6 +14,10 @@ Alternativ, schneller, sicherer, aber derzeit nicht von allen Standards unterst√
 
      ls -la ~/.ssh/*.pub
 
+## ssh key import    
+
+todo
+
 ## Beispiel um auf installierte MySQL zuzugreifen
 
 auf der Konsole ausf√ºhren.
