@@ -1,5 +1,23 @@
 ## GIT
 
+### Git config vorhandener Account
+
+Key reinkopieren in  ~/.ssh, dann evtl. Agent starten und mit ssh-add hinzufügen
+
+     eval "$(ssh-agent -s)"
+     ssh-add ~/.ssh/id_rsa 
+
+Namen und Mail hinzufügen (siehe git account)
+
+     git config --global user.name "Your Name"
+     git config --global user.email you@example.com
+
+     zum nachschauen
+
+     git config --global --edit 
+
+Checkout bzw. clonen mit diesen Einstellungen sonst wird beim commiten (push) evtl. kein ssh genutzt.
+
 ### Branches
 
 Nach Änderungen im aktuellen branch schauen
