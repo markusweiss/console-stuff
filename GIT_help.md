@@ -1,6 +1,6 @@
 ## GIT
 
-### Git config vorhandener Account
+### Git config wenn vorhandener ssh key
 
 Key reinkopieren in  ~/.ssh, dann evtl. Agent starten und mit ssh-add hinzufügen
 
