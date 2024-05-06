@@ -46,3 +46,6 @@ siehe Getting started
     Terminal -> Editor -> Font Family
 
     MesloLGS NF
+
+# SSH Key hinzufügen
+
