@@ -1,6 +1,6 @@
 ## GIT
 
-### Git config wenn vorhandener ssh key
+### Git config wenn vorhandener ssh Key
 
 Key reinkopieren in  ~/.ssh, dann evtl. Agent starten und mit ssh-add hinzufügen
 
