@@ -48,6 +48,19 @@ Nun können wir auf der Konsole per ssh unser Projekt aufrufen.
 
 Danach Passwort eingeben und wir sind auf der Maschine mit gelinkter MySQL Datenbank.
 
+## Private Schlüssel in den SSH-Agenten laden
+
+     ssh-add
+
+## Auflistung der öffentlichen Schlüssel, die im SSH-Agent geladen sind. 
+
+     ssh-add -L
+
+##  Überprüfen, ob deine SSH-Konfiguration für GitHub richtig ist.
+
+     ssh -T git@gitlab.com
+
+
 ## Zugriff auf MySQL Datenbank
 
 Mit einem Client z.B. SQuirreL oder SequelPro einloggen

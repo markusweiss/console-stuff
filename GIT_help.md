@@ -54,17 +54,21 @@ oder zurück
 
 ### Letzte git commit Nachricht umbenennen
 
-`git commit --amend -m "Meine neue commit Nachricht"`
+     git commit --amend -m "Meine neue commit Nachricht"
 
 Danach brauchen wir den aktuellen Respository und Branch Namen.
 
 Falls der Repository Name aus irgendeinem Grund nicht bekannt sein sollte:
 
-`git remote show origin`
+     git remote show origin
+
+Kurzform
+
+     git remote -v
 
 Ganz oben steht der Pfad/URL, jetzt können wir pushen.
 
-`git push --force <mein-repository-name> <mein-branch-name>`
+     git push --force <mein-repository-name> <mein-branch-name>
 
 **ACHTUNG `--force` nur nutzen wenn Ihr Euch sicher seid das kein anderer dran arbeitet oder ein clone gemacht hat!!!**
 
