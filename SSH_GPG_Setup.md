@@ -52,13 +52,17 @@ Danach Passwort eingeben und wir sind auf der Maschine mit gelinkter MySQL Daten
 
      ssh-add
 
+## SSH-Agent Forwarding
+
+     ssh -A <servename> bzw. ssh -A user@remote-server
+
 ## Auflistung der öffentlichen Schlüssel, die im SSH-Agent geladen sind. 
 
      ssh-add -L
 
 ##  Überprüfen, ob deine SSH-Konfiguration für GitHub richtig ist.
 
-     ssh -T git@gitlab.com
+     ssh -T git@github.com
 
 
 ## Zugriff auf MySQL Datenbank
